@@ -1,0 +1,23 @@
+#header {
+	background-image: url("../images/sponsors-header.jpg");
+	background-position: center center;
+}
+
+#sub h1{
+	-webkit-transition: color .5s;
+	transition: color .5s;
+}
+
+#sub h1:hover {
+	color: rgb(255, 210, 0);
+}
+
+.sponsorimg {
+	max-width: 200px;
+	-webkit-transition: max-width, 1s;
+	transition: max-width, 1s;
+}
+
+.sponsorimg:hover {
+	max-width: 250px;
+}

@@ -1,0 +1,151 @@
+body {
+	background-color: rgb(255, 255, 255);
+	font-family: 'Quicksand';
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+#header {
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0px;
+    width: -moz-calc(100% + 20px);
+    width: -webkit-calc(100% + 20px);
+    width: calc(100% + 20px);
+    height: -moz-calc(50% - 25px);
+    height: -webkit-calc(50% - 25px);
+    height: calc(50% - 25px);
+	margin-left: -20px;
+	border-bottom: solid 50px rgb(255, 210, 0);
+}
+
+#header h1 {
+	font-size: 4.5vw;
+	padding-right: 25px;
+	letter-spacing: .25em;
+	color: rgb(255, 255, 255);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+	left: 51.5%;
+    transform: translate(-50%, -50%);
+}
+
+#footer-table {
+	font-size: 0.6em;
+	color: rgb(0, 25, 65);
+}
+
+#sub #footer-table a, #sub #footer-table a:visited {
+	text-decoration: underline;
+	color: rgb(0, 25, 65);
+}
+
+#filter {
+	opacity: 0.5;
+	background-color: rgb(0, 25, 65);
+	height: 100%;
+	width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0px;
+}
+
+#sub {
+	position: absolute;
+	top: 60%;
+	height: 100%;
+	width: 70%;
+	left: 15%;
+	color: rgb(0, 25, 65);
+}
+
+#sub h1 {
+	font-size: 3.5em;
+	color: rgb(0, 25, 65);
+	text-align: center;
+}
+
+#sub a, #sub a:visited {
+	font-decoration: none;
+	color: rgb(255, 210, 0);
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+#sub #footer-table a:hover, #sub a:hover {
+	color: rgb(133, 180, 255);
+}
+
+.circle-image {
+	background-color: rgb(0, 25, 65);
+	border-radius: 100%;
+}
+
+#logo {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+	height: 125px;
+	border: solid 10px rgb(255, 210, 0);
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	z-index: 0;
+}
+
+#topnav {
+	position: absolute;
+    top: 50%;
+	left: 51.5%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 25, 65);
+}
+
+#topnav a, #topnav a:visited {
+	font-decoration: none;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+    color: rgb(0, 25, 65);
+}
+
+#topnav a:hover {
+	color: rgb(133, 180, 255);
+}
+
+#follownav {
+	position: fixed;
+    top: 0px;
+	left: 0px;
+    color: rgb(0, 25, 65);
+    width: 100%;
+    background-color: rgba(0, 25, 65, 0.75);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+
+#follownav a, #follownav a:visited {
+	font-decoration: none;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+    color: rgb(255, 210, 0);
+}
+
+#follownav a:hover {
+	color: rgb(133, 180, 255);
+}
+
+.ctrdels {
+	margin-right: auto;
+	margin-left: auto;
+	width: 700px;
+}

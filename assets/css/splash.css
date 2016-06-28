@@ -1,0 +1,105 @@
+body {
+	background-position: 0px -175px;
+	font-family: 'Quicksand';
+}
+
+#container {
+	background-image: url("../images/splash.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#box-filter {
+	background-color: rgba(255, 255, 255, 0.25);
+	height: 300px;
+	width: 450px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#splash {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#splash h1 {
+	font-size: 3.25em;
+	color: rgb(0, 25, 65);
+	line-height: 0.25;
+	text-align: center;
+}
+
+#splash h2 {
+	font-size: 5.75em;
+	color: rgb(255, 255, 255);
+	line-height: 0.25;
+	text-align: center;
+}
+
+#splash h3 {
+	display: block;
+	font-size: 1em;
+	color: rgb(0, 25, 65);
+	text-align: center;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+}
+
+#splash-button {
+	margin-top: -20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(0, 25, 65);
+	width: 75px;
+	-webkit-transition: background-color 1s;
+	transition: background-color 1s;
+	padding: 5px;
+}
+
+#splash h3:hover {
+	color: rgb(255, 210, 0);
+}
+
+
+#splash-button:hover {
+	background-color: rgba(0, 25, 65, 0.75);
+	color: rgb(255, 210, 0);
+	cursor: pointer;
+}
+
+#basic-HTML-link {
+	text-align: center;
+}
+
+#basic-HTML-link a, #basic-HTML-link a:visited {
+	font-size: 0.6em;
+	font-weight: bold;
+	color: rgb(0, 25, 65);
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#basic-HTML-link a:hover {
+	color: rgb(255, 255, 255);
+}
