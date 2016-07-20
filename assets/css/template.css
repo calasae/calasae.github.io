@@ -54,6 +54,10 @@ a {
 	padding-top: 25px;
 }
 
+#footer-table td{
+  padding: 5px;
+}
+
 #sub #footer-table a, #sub #footer-table a:visited {
 	text-decoration: underline;
 	color: rgb(0, 25, 65);
