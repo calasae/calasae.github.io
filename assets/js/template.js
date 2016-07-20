@@ -20,16 +20,6 @@ $(document).ready(
 			}
 
 		)
-
-		if(screen.width < 600){
-			$("#header").css("display", "none");
-			$("#topnav").css("display", "none");
-			$("#mobile-nav").css("display", "block");
-		} else{
-			$("#header").css("display", "block");
-			$("#topnav").css("display", "block");
-			$("#mobile-nav").css("display", "none");
-		}
 	})
 
 $("#logo").hover(
