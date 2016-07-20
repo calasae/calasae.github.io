@@ -3,7 +3,6 @@ $(".sublink").click(
 			var link = $(this).attr("value");
 			$(link).slideDown("slow");
 			$("div.teamroster").not(link).slideUp("slow");
-
 		}
 	);
 

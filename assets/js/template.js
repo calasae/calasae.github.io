@@ -1,9 +1,11 @@
 $(document).ready(
 
 	function(){
-		
+
 		var hdrHeight = 0.5*$(window).height();
 
+		var docHeight = $(document).height();
+		var vpHeight = $(window).height();
 
 		$(window).scroll(
 			function(){
@@ -21,6 +23,7 @@ $(document).ready(
 			}
 
 		)
+
 	})
 
 $("#logo").hover(

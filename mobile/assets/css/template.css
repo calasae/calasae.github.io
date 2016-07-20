@@ -34,16 +34,21 @@ h1 {
 }
 
 #footer-table {
-	font-size: 0.6em;
+	border-top: 2px rgb(255, 210, 0) solid;
+	font-size: 0.9em;
 	color: rgb(0, 25, 65);
+	width: 100%;
+	padding-top: 25px;
 }
 
-#footer-table a, #footer-table a:visited {
+#sub #footer-table a, #sub #footer-table a:visited {
 	text-decoration: underline;
 	color: rgb(0, 25, 65);
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
-#footer-table a:hover {
+#sub #footer-table a:hover, #sub a:hover {
 	color: rgb(133, 180, 255);
 }
 

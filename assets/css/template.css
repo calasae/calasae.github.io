@@ -2,10 +2,20 @@ body {
 	background-color: rgb(255, 255, 255);
 	font-family: 'Quicksand';
 	overflow-x: hidden;
+	font-size: 1.25em;
 }
 
 a {
 	text-decoration: none;
+}
+
+
+#main{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
 }
 
 #header {
@@ -13,12 +23,12 @@ a {
 	background-attachment: fixed;
 	position: absolute;
 	top: 0px;
-    width: -moz-calc(100% + 20px);
-    width: -webkit-calc(100% + 20px);
-    width: calc(100% + 20px);
-    height: -moz-calc(50% - 25px);
-    height: -webkit-calc(50% - 25px);
-    height: calc(50% - 25px);
+  width: -moz-calc(100% + 20px);
+  width: -webkit-calc(100% + 20px);
+  width: calc(100% + 20px);
+  height: -moz-calc(50% - 25px);
+  height: -webkit-calc(50% - 25px);
+  height: calc(50% - 25px);
 	margin-left: -20px;
 	border-bottom: solid 50px rgb(255, 210, 0);
 }
@@ -36,14 +46,20 @@ a {
 }
 
 #footer-table {
-	font-size: 0.6em;
+	border-top: 2px rgb(255, 210, 0) solid;
+	font-size: 0.7em;
 	color: rgb(0, 25, 65);
+	width: 100%;
+	padding-top: 25px;
 }
 
 #sub #footer-table a, #sub #footer-table a:visited {
 	text-decoration: underline;
 	color: rgb(0, 25, 65);
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
 }
+
 
 #filter {
 	opacity: 0.5;
@@ -65,7 +81,7 @@ a {
 }
 
 #sub h1 {
-	font-size: 3.5em;
+	font-size: 3em;
 	color: rgb(0, 25, 65);
 	text-align: center;
 }
@@ -87,11 +103,11 @@ a {
 }
 
 #logo {
-    margin: 0;
-    position: absolute;
-    top: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
 	left: 50%;
-    transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 	height: 125px;
 	border: solid 10px rgb(255, 210, 0);
 	-webkit-transition: background-color 0.5s;
@@ -120,16 +136,16 @@ a {
 
 #follownav {
 	position: fixed;
-    top: 0px;
+  top: 0px;
 	left: 0px;
-    color: rgb(0, 25, 65);
-    width: 100%;
-    background-color: rgba(0, 25, 65, 0.75);
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: none;
+  color: rgb(0, 25, 65);
+  width: 100%;
+  background-color: rgba(0, 25, 65, 0.75);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: none;
 }
 
 

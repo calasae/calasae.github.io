@@ -3,17 +3,18 @@ body {
 	font-family: 'Quicksand';
 }
 
-#container {
+#splash-container {
 	background-image: url("../images/splash.jpg");
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: 50%;
-	min-width: 100%;
-	min-height: 100%;
+	width: 100vw;
+	height: 100vh;
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	overflow-x: hidden;
 }
 
 a {
@@ -24,12 +25,12 @@ a {
 	background-color: rgba(255, 255, 255, 0.25);
 	height: 300px;
 	width: 450px;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 #splash {
@@ -102,4 +103,11 @@ a {
 
 #basic-HTML-link a:hover {
 	color: rgb(255, 255, 255);
+}
+
+#footer-container{
+	position: absolute;
+	bottom: 10;
+	right: 10;
+	z-index: 99;
 }
