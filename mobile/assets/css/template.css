@@ -1,11 +1,12 @@
 body {
-  font-family: "Quicksand";
+  font-family: "Garamond";
   font-size: 100%;
   color: rgb(0, 25, 65);
   overflow-x: hidden;
 }
 
 h1 {
+  font-family: "Quicksand";
   font-size: 3em;
   text-align: center;
 }
@@ -18,6 +19,7 @@ h1 {
 }
 
 #header {
+  font-family: "Quicksand";
   position: absolute;
   top: 0;
   left: 0;
@@ -36,7 +38,7 @@ h1 {
 
 #footer-table {
 	border-top: 2px rgb(255, 210, 0) solid;
-	font-size: 0.6em;
+	font-size: 0.9em;
 	color: rgb(0, 25, 65);
 	width: 100%;
 	padding-top: 25px;
@@ -47,6 +49,7 @@ h1 {
 	color: rgb(0, 25, 65);
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
+  font-family: "Garamond";
 }
 
 #sub #footer-table a:hover, #sub a:hover {
@@ -68,7 +71,13 @@ a:hover {
   color: rgb(133, 180, 255);
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
+  font-family: "Quicksand";
 }
+
+h1, h2, h3{
+  font-family: "Quicksand";
+}
+
 
 #sub a:hover {
   color: rgb(255, 210, 0);

@@ -108,6 +108,8 @@ a {
 #footer-container{
 	position: absolute;
 	bottom: 10;
-	right: 10;
+	left: 15vw;
+	width: 70vw;
 	z-index: 99;
+	color: rgb(255, 255, 255);
 }

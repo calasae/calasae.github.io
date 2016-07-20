@@ -1,6 +1,6 @@
 body {
 	background-color: rgb(255, 255, 255);
-	font-family: 'Quicksand';
+	font-family: 'Garamond';
 	overflow-x: hidden;
 	font-size: 1.25em;
 }
@@ -34,6 +34,7 @@ a {
 }
 
 #header h1 {
+	font-family: "Quicksand";
 	font-size: 4.5vw;
 	padding-right: 25px;
 	letter-spacing: .25em;
@@ -81,6 +82,7 @@ a {
 }
 
 #sub h1 {
+	font-family: "Quicksand";
 	font-size: 3em;
 	color: rgb(0, 25, 65);
 	text-align: center;
@@ -116,11 +118,12 @@ a {
 }
 
 #topnav {
+	font-family: "Quicksand";
 	position: absolute;
-    top: 50%;
+  top: 50%;
 	left: 51.5%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 25, 65);
+  transform: translate(-50%, -50%);
+  color: rgb(0, 25, 65);
 }
 
 #topnav a, #topnav a:visited {
@@ -135,6 +138,7 @@ a {
 }
 
 #follownav {
+	font-family: "Quicksand";
 	position: fixed;
   top: 0px;
 	left: 0px;

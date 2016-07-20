@@ -9,6 +9,7 @@
 
 #teamshdr {
 	width: 100%;
+	font-family: "Quicksand";
 }
 
 #teamshdr a, #teamshdr a:visited {
@@ -36,6 +37,10 @@
 	display: none;
 }
 
+.teamroster table{
+	color: rgb(0, 25, 65);
+}
+
 .sublink:hover, .imglink:hover {
 	cursor: pointer;
 }
@@ -55,10 +60,10 @@
 	background-color: rgba(0, 25, 65, 1);
 	color: rgb(255, 255, 255);
 	position: fixed;
-    margin: 0;
-    top: 50%;
+  margin: 0;
+  top: 50%;
 	left: 50%;
-    transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 	height: 350px;
 	width: 500px;
 	z-index: 99;
@@ -68,6 +73,7 @@
 }
 
 .bio h1 {
+	font-family: "Quicksand";
 	color: rgb(255, 210, 0);
 }
 

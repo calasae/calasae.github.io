@@ -7,6 +7,10 @@ h2{
 	font-size: 2em;
 }
 
+.name-hdr, .subhdr{
+	font-family: "Quicksand";
+}
+
 .headshot{
 	height: 18em;
 	width: auto;
