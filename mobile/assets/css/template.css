@@ -2,6 +2,7 @@ body {
   font-family: "Quicksand";
   font-size: 100%;
   color: rgb(0, 25, 65);
+  overflow-x: hidden;
 }
 
 h1 {
