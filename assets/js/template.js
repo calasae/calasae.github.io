@@ -4,9 +4,6 @@ $(document).ready(
 
 		var hdrHeight = 0.5*$(window).height();
 
-		var docHeight = $(document).height();
-		var vpHeight = $(window).height();
-
 		$(window).scroll(
 			function(){
 				if( $("body").scrollTop() > hdrHeight ){
@@ -24,6 +21,15 @@ $(document).ready(
 
 		)
 
+		if(screen.width < 600){
+			$("#header").css("display", "none");
+			$("#topnav").css("display", "none");
+			$("#mobile-nav").css("display", "block");
+		} else{
+			$("#header").css("display", "block");
+			$("#topnav").css("display", "block");
+			$("#mobile-nav").css("display", "none");
+		}
 	})
 
 $("#logo").hover(
