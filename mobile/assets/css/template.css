@@ -1,5 +1,5 @@
 body {
-  font-family: "Garamond";
+  font-family: "EB Garamond";
   font-size: 100%;
   color: rgb(0, 25, 65);
   overflow-x: hidden;
@@ -49,7 +49,7 @@ h1 {
 	color: rgb(0, 25, 65);
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
-  font-family: "Garamond";
+  font-family: "EB Garamond";
 }
 
 #sub #footer-table a:hover, #sub a:hover {
