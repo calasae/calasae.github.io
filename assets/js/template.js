@@ -1,4 +1,11 @@
 $(document).ready(
+  function(){
+    $(location).attr('href', 'https://www.ocf.berkeley.edu/~asae/index.html');
+
+  }
+);
+
+$(document).ready(
 
 	function(){
 
